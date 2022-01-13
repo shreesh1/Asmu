@@ -8,6 +8,7 @@ flask<br>
 keystone-engine<br>
 capstone<br>
 unicorn-engine<br>
+gunicorn<br>
 
 ### Currently Supported<br>
 x86_64 assembly<br>
