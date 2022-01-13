@@ -17,7 +17,6 @@ cached-property==1.5.2
 cachetools==5.0.0
 capstone==4.0.2
 capturer==3.0
-cemu==0.6
 certifi==2019.11.28
 cffi==1.15.0
 chardet==3.0.4
