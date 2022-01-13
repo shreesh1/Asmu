@@ -26,7 +26,6 @@ def emu_code(form):
 		mu = Uc(UC_ARCH_X86, UC_MODE_64)
 		mu.mem_map(ADDRESS, 2 * 1024 * 1024)
 		mu.mem_write(ADDRESS, asm_bytecode)
-		mu.reg_write(UC_X86_REG_RDI, 7)
 		mu.emu_start(ADDRESS, ADDRESS + len(asm_bytecode))
 		rax = mu.reg_read(UC_X86_REG_RAX)
 		rbx = mu.reg_read(UC_X86_REG_RBX)
